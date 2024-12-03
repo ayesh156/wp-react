@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router";
 import Header from "./components/Header";
+import Gasp from "./components/Gasp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
