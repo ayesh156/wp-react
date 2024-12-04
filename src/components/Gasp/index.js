@@ -6,7 +6,7 @@ import './style.css'; // Assuming your styles are in this file
 // Register ScrollTrigger plugin with GSAP
 gsap.registerPlugin(ScrollTrigger);
 
-const App = () => {
+const Gasp = () => {
     // Create a ref for the bg_city div
     const svgContainerRef = useRef(null);
 
@@ -123,4 +123,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Gasp;

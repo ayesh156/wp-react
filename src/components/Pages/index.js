@@ -27,7 +27,7 @@ const Pages = () => {
                     // Parse the HTML to extract the image URL
                     const parser = new DOMParser();
                     const htmlDoc = parser.parseFromString(post.content.rendered, "text/html");
-                    const imgElement = htmlDoc.querySelector("img"); // Select the first <img> tag
+                    const imgElement = htmlDoc.querySelector("img2"); // Select the first <img2> tag
                     const imageUrl = imgElement ? imgElement.src : "https://placehold.co/500"; // Fallback if no image
 
                     return (

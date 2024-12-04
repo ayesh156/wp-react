@@ -8,8 +8,8 @@ const Header = () => {
         { name: "Home", href: "/" },
         { name: "Pages", href: "/pages" },
         { name: "Animation", href: "/animation" },
-        { name: "Posts", href: "/posts" },
-        { name: "Tags", href: "/tags" },
+        { name: "Gasp", href: "/gasp" },
+        { name: "Infinite", href: "/infinite" },
     ];
 
     // Function to toggle the menu visibility
